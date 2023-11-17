@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
-const CONNECTION_URL = 'mongodb://localhost:27017/memories';
+const CONNECTION_URL = 'mongodb+srv://karanyelgulwar:1nEv1EuKVVj93S4W@cluster0.wcoomx0.mongodb.net/memories?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
