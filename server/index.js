@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 
 import postRoutes from './routes/posts.js';
-
+// practice new
 const app = express();
 
 app.use(cors());  // Place the CORS middleware at the beginning
